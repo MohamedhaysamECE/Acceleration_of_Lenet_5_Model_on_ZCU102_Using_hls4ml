@@ -40,7 +40,7 @@ Layers are computed sequentially using pipelining (accepting new inputs after an
 #### Implementation of layers
 Some layers, e.g., convolutional layers lowered to CMVM through the im2col [21] transformation, may perform identical CMVM operations multiple times on different inputs in one forward pass. In this case, the parallelism between CMVM operations is controlled by the Parallelization Factor (PF).
   <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="images/Picture3.png" />
+  <img width="700" alt="FPGA acceleration results" src="images/Picture3.png" />
 </p>
 
 Example CMVM in hls4ml with the Resource strategy. Given a linear layer with 𝑁 N inputs, M𝑀 outputs and reuse factor RF, there will be 𝑃P = 𝑀(M*N𝑁)/Rf multipliers operating in parallel. In each clock cycle, the control logic selects 𝑃P out of the N𝑁 inputs and feeds them to the multipliers, with wrap around if P 𝑃 > 𝑁 N The N𝑁 ×M 𝑀 kernel is reshaped and mapped to on-chip memories such that 𝑃 elements can be accessed in parallel in each clock cycle. The products are accumulated accordingly at the precision specified to form the output.
@@ -48,7 +48,7 @@ Activations: Piecewise linear activations (e.g., ReLU, Leaky ReLU) are implement
 
 #### Implementation of IO-types
   <p align="center">
-  <img width="700" alt="FPGA acceleration results" src="images/Picture3.png" />
+  <img width="700" alt="FPGA acceleration results" src="images/Picture4.png" />
 </p>
 Schematics of the computation of an MLP model implemented using parallel data transfer (left) and a CNN model implemented using streaming data transfer (right). In the Resource strategy, the number of parallel MAC operations executed in each cycle is determined by the RF and PF. In the case of the MLP, (𝑀M*N)/RF multiplications are executed in parallel each clock cycle.
 
@@ -197,7 +197,7 @@ Interval (II) of 5492 clock cycles.
 
 ### Vivado System Integration:
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="images/full_system_integration.png" />
+  <img width="700" alt="FPGA acceleration results" src="images/full_system_integration.png" />
 </p>
 Rather than using the generated IP of hls4ml, which requires
 manual control of its signals such as ap start and ap ready

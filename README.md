@@ -16,7 +16,7 @@ Layers are computed sequentially using pipelining (accepting new inputs after an
   Quantization-Aware Training (QAT): Integrates seamlessly with tools like QKeras to maintain accuracy at low precision during inference.
   Reuse Factor: Controls how many times a single multiplier is reused per layer:
   <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/picture1.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/picture1.png" />
 </p>
     Low Reuse Factor (e.g., 1): Maximum parallelism, lowest latency, highest throughput, but higher resource usage.
     High Reuse Factor (e.g., 4): Serialized computations, saves FPGA resources at the cost of higher latency.
@@ -29,7 +29,7 @@ Layers are computed sequentially using pipelining (accepting new inputs after an
 
 ### Architecture
   <p align="center">
-  <img width="700" alt="FPGA acceleration results" src="Images/picture2.png" />
+  <img width="700" alt="FPGA acceleration results" src="images/picture2.png" />
 </p>
 
 #### The hls4ml compiler infrastructure consists of four primary layers:
@@ -40,7 +40,7 @@ Layers are computed sequentially using pipelining (accepting new inputs after an
 #### Implementation of layers
 Some layers, e.g., convolutional layers lowered to CMVM through the im2col [21] transformation, may perform identical CMVM operations multiple times on different inputs in one forward pass. In this case, the parallelism between CMVM operations is controlled by the Parallelization Factor (PF).
   <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/picture3.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/picture3.png" />
 </p>
 
 Example CMVM in hls4ml with the Resource strategy. Given a linear layer with 𝑁 N inputs, M𝑀 outputs and reuse factor RF, there will be 𝑃P = 𝑀(M*N𝑁)/Rf multipliers operating in parallel. In each clock cycle, the control logic selects 𝑃P out of the N𝑁 inputs and feeds them to the multipliers, with wrap around if P 𝑃 > 𝑁 N The N𝑁 ×M 𝑀 kernel is reshaped and mapped to on-chip memories such that 𝑃 elements can be accessed in parallel in each clock cycle. The products are accumulated accordingly at the precision specified to form the output.
@@ -48,7 +48,7 @@ Activations: Piecewise linear activations (e.g., ReLU, Leaky ReLU) are implement
 
 #### Implementation of IO-types
   <p align="center">
-  <img width="700" alt="FPGA acceleration results" src="Images/picture3.png" />
+  <img width="700" alt="FPGA acceleration results" src="images/picture3.png" />
 </p>
 Schematics of the computation of an MLP model implemented using parallel data transfer (left) and a CNN model implemented using streaming data transfer (right). In the Resource strategy, the number of parallel MAC operations executed in each cycle is determined by the RF and PF. In the case of the MLP, (𝑀M*N)/RF multiplications are executed in parallel each clock cycle.
 
@@ -57,14 +57,14 @@ Schematics of the computation of an MLP model implemented using parallel data tr
 ### hls4ml workflow for LeNet-5
 Validate the complete hls4ml deployment flow before moving to MobileNetV1.Use a lightweight CNN (LeNet-5) to debug the entire FPGA workflow.Verify that every stage works correctly:
 <p align="center">
-  <img width="700" alt="FPGA acceleration results" src="Images/picture5.png" />
+  <img width="700" alt="FPGA acceleration results" src="images/picture5.png" />
 </p>
 ### LeNet-5 Architecture
 
 <table>
   <tr>
-    <td align="center"><img width="400" alt="Time profiling breakdown" src="Images/picture6" /></td>
-    <td align="center"><img width="400" alt="System partitioning diagram" src="Images/picture7" /></td>
+    <td align="center"><img width="400" alt="Time profiling breakdown" src="images/picture6" /></td>
+    <td align="center"><img width="400" alt="System partitioning diagram" src="images/picture7" /></td>
   </tr>
 </table>
 
@@ -76,7 +76,7 @@ Validate the complete hls4ml deployment flow before moving to MobileNetV1.Use a 
   Batch Size: 128
 #### Accuracy
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/picture8.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/picture8.png" />
 </p>
 
 ### Model Compression using TensorFlow Model Optimization Toolkit (TFMOT)
@@ -86,12 +86,12 @@ Validate the complete hls4ml deployment flow before moving to MobileNetV1.Use a 
     Target Sparsity = 50%
     Fine-tuning = 3 epochs
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/picture9.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/picture9.png" />
 </p>
 
 #### Accuracy
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/picture10.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/picture10.png" />
 </p>
 
 ### Quantization Aware Training (QAT)
@@ -105,7 +105,7 @@ Validate the complete hls4ml deployment flow before moving to MobileNetV1.Use a 
     Fine-tune for 3 epochs
 #### Accuracy
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/picture11.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/picture11.png" />
 </p>
 
 ### hls4ml Software Flow: 
@@ -168,7 +168,7 @@ following Figure illustrates the hardware architecture generated by hls4ml for
 the first convolutional layer (Conv1) of the LeNet-5 model
 under the io stream configuration.
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/conv1_layer.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/conv1_layer.png" />
 </p>
 Under the io stream paradigm, input pixels enter the Conv1
 layer sequentially as 16-bit fixed-point (ap fixed¡16, 6]¿).
@@ -197,7 +197,7 @@ Interval (II) of 5492 clock cycles.
 
 ### Vivado System Integration:
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/full_system_integration.png" />
+  <img width="500" alt="FPGA acceleration results" src="images/full_system_integration.png" />
 </p>
 Rather than using the generated IP of hls4ml, which requires
 manual control of its signals such as ap start and ap ready
@@ -346,5 +346,5 @@ generating an updated bitstream, the system operated correctly.
   </tbody>
 </table>
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="Images/deployment on ZCU102 board.jpg" />
+  <img width="500" alt="FPGA acceleration results" src="images/deployment on ZCU102 board.jpg" />
 </p>

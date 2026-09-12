@@ -202,7 +202,11 @@ Waveform analysis and simulation results in Vivado demonstrating the successful 
 <p align="center">
   <img width="500" alt="FPGA acceleration results" src="images/Picture13.png" />
 </p>
+
 ### Vivado System Integration:
+<p align="center">
+  <img width="700" alt="FPGA acceleration results" src="images/full_system_integration.png" />
+</p>
 Rather than using the generated IP of hls4ml, which requires
 manual control of its signals such as ap start and ap ready
 for every inference (image), we use a wrapper which has an
@@ -248,9 +252,7 @@ GPIO for input (batch done).
 After integration, there are memory addresses assigned for the
 RX FIFO, TX FIFO, GPIO1, and GPIO2 to allow the PS to
 communicate with the hardware.
-<p align="center">
-  <img width="700" alt="FPGA acceleration results" src="images/full_system_integration.png" />
-</p>
+
 Finally, the .xsa hardware-platform file was generated for
 use in Vitis. following Table summarizes the ZCU102 FPGA resource
 utilization of the complete system

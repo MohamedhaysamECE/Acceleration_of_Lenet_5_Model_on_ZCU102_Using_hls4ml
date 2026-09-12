@@ -59,12 +59,13 @@ Validate the complete hls4ml deployment flow before moving to MobileNetV1.Use a 
 <p align="center">
   <img width="700" alt="FPGA acceleration results" src="images/Picture5.png" />
 </p>
+
 ### LeNet-5 Architecture
 
 <table>
   <tr>
-    <td align="center"><img width="400" alt="Time profiling breakdown" src="images/Picture6" /></td>
-    <td align="center"><img width="400" alt="System partitioning diagram" src="images/Picture7" /></td>
+    <td align="center"><img width="400" alt="Time profiling breakdown" src="images/Picture6.png" /></td>
+    <td align="center"><img width="400" alt="System partitioning diagram" src="images/Picture7.png" /></td>
   </tr>
 </table>
 

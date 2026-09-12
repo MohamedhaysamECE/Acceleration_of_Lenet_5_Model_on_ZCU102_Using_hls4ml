@@ -200,7 +200,7 @@ The implemented architecture achieved an overall Initiation
 Interval (II) of 5492 clock cycles.
 Waveform analysis and simulation results in Vivado demonstrating the successful execution and validation of the exported IP.
 <p align="center">
-  <img width="500" alt="FPGA acceleration results" src="images/Picture13.png" />
+  <img width="700" alt="FPGA acceleration results" src="images/Picture13.png" />
 </p>
 
 ### Vivado System Integration:

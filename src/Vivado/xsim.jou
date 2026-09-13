@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# xsim v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Aug 19 10:48:57 2026
+# Process ID: 13988
+# Current directory: /home/mohamed/Nile_intern/Tasks/Mobilenet_project/test/lenet_project/lenet5_hls_100/myproject_prj/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/myproject/xsim_script.tcl}
+# Log file: /home/mohamed/Nile_intern/Tasks/Mobilenet_project/test/lenet_project/lenet5_hls_100/myproject_prj/solution1/sim/verilog/xsim.log
+# Journal file: /home/mohamed/Nile_intern/Tasks/Mobilenet_project/test/lenet_project/lenet5_hls_100/myproject_prj/solution1/sim/verilog/xsim.jou
+# Running On: mohamed, OS: Linux, CPU Frequency: 3475.375 MHz, CPU Physical cores: 4, Host memory: 16643 MB
+#-----------------------------------------------------------
+source xsim.dir/myproject/xsim_script.tcl
+open_wave_config myproject_dataflow_ana.wcfg
+source myproject.tcl

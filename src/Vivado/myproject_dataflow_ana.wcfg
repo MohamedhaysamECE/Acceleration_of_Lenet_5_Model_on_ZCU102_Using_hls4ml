@@ -1,0 +1,1926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="myproject.wdb" id="1">
+         <top_modules>
+            <top_module name="apa_myproject_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0ns"></ZoomStartTime>
+      <ZoomEndTime time="2000ns"></ZoomEndTime>
+      <Cursor1Time time="0ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="group" fp_name="HLS Process Summary Group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity">
+         <obj_property name="label">AESL_inst_myproject_activity</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="UseFullPath">true</obj_property>
+         <obj_property name="ElementShortName">AESL_inst_myproject_activity</obj_property>
+         <obj_property name="ObjectShortName">AESL_inst_myproject_activity</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+         <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">turquoise</obj_property>
+         <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+         <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity.dataflowTxWaveData.Cycles</obj_property>
+         <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity.dataflowTxWaveData.OutStanding</obj_property>
+         <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity.dataflowTxTooltipData</obj_property>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity">
+            <obj_property name="label">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity">
+               <obj_property name="label">grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity.dataflowTxTooltipData</obj_property>
+               <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity">
+                  <obj_property name="label">call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity</obj_property>
+                  <obj_property name="ObjectShortName">call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity">
+            <obj_property name="label">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity">
+            <obj_property name="label">relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity">
+            <obj_property name="label">pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity">
+            <obj_property name="label">conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity">
+               <obj_property name="label">grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity.dataflowTxTooltipData</obj_property>
+               <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity">
+                  <obj_property name="label">call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity</obj_property>
+                  <obj_property name="ObjectShortName">call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity">
+            <obj_property name="label">normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity">
+            <obj_property name="label">relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity">
+            <obj_property name="label">pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity">
+            <obj_property name="label">dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity">
+               <obj_property name="label">grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity">
+            <obj_property name="label">normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity">
+            <obj_property name="label">relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity">
+            <obj_property name="label">dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity">
+            <obj_property name="label">normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity">
+            <obj_property name="label">relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity">
+            <obj_property name="label">dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity">
+            <obj_property name="label">normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity.dataflowTxTooltipData</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity">
+            <obj_property name="label">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="UseFullPath">true</obj_property>
+            <obj_property name="ElementShortName">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity</obj_property>
+            <obj_property name="ObjectShortName">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">turquoise</obj_property>
+            <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+            <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity">
+               <obj_property name="label">grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity</obj_property>
+               <obj_property name="ObjectShortName">grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject//AESL_inst_myproject_activity">
+      <obj_property name="ElementShortName">AESL_inst_myproject_activity</obj_property>
+      <obj_property name="ObjectShortName">AESL_inst_myproject_activity</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="AESL_inst_myproject_group">
+      <obj_property name="label">AESL_inst_myproject</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity">
+         <obj_property name="ElementShortName">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity">
+         <obj_property name="ElementShortName">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity">
+         <obj_property name="ElementShortName">relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity">
+         <obj_property name="ElementShortName">pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity">
+         <obj_property name="ElementShortName">conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity">
+         <obj_property name="ElementShortName">normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity">
+         <obj_property name="ElementShortName">relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity">
+         <obj_property name="ElementShortName">pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity">
+         <obj_property name="ElementShortName">dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity">
+         <obj_property name="ElementShortName">normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity">
+         <obj_property name="ElementShortName">relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity">
+         <obj_property name="ElementShortName">dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity">
+         <obj_property name="ElementShortName">normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity">
+         <obj_property name="ElementShortName">relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity">
+         <obj_property name="ElementShortName">dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity">
+         <obj_property name="ElementShortName">normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity">
+         <obj_property name="ElementShortName">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity</obj_property>
+         <obj_property name="ObjectShortName">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_activity</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="AESL_inst_myproject_Handshake_group">
+         <obj_property name="label">Block-level handshake</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/ap_start">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/ap_ready">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/ap_done">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_group">
+         <obj_property name="label">conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity">
+            <obj_property name="ElementShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer2_out_group">
+               <obj_property name="label">layer2_out(layer2_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/layer2_out_blk_n">
+                  <obj_property name="ElementShortName">layer2_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer2_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/layer2_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/layer2_out_full_n">
+                  <obj_property name="ElementShortName">layer2_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer2_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/layer2_out_write">
+                  <obj_property name="ElementShortName">layer2_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer2_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_group">
+            <obj_property name="label">grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity">
+               <obj_property name="ElementShortName">call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity</obj_property>
+               <obj_property name="ObjectShortName">call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_activity</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_group">
+               <obj_property name="label">call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128_Handshake_group">
+                  <obj_property name="label">Block-level handshake</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/ap_start">
+                     <obj_property name="ElementShortName">ap_start</obj_property>
+                     <obj_property name="ObjectShortName">ap_start</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_30_15_5_3_0_6u_config2_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_30_15_5_3_0_6u_config2_s_fu_120/call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_1u_config2_s_fu_128/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_group">
+         <obj_property name="label">normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer2_out_group">
+               <obj_property name="label">layer2_out(layer2_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer2_out_blk_n">
+                  <obj_property name="ElementShortName">layer2_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer2_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer2_out_dout">
+                  <obj_property name="ElementShortName">layer2_out_dout[179:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer2_out_dout[179:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer2_out_empty_n">
+                  <obj_property name="ElementShortName">layer2_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer2_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer2_out_read">
+                  <obj_property name="ElementShortName">layer2_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer2_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer20_out_group">
+               <obj_property name="label">layer20_out(layer20_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer20_out_blk_n">
+                  <obj_property name="ElementShortName">layer20_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer20_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer20_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer20_out_full_n">
+                  <obj_property name="ElementShortName">layer20_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer20_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_6u_array_ap_fixed_16_6_5_3_0_6u_config20_U0/layer20_out_write">
+                  <obj_property name="ElementShortName">layer20_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer20_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_group">
+         <obj_property name="label">relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer20_out_group">
+               <obj_property name="label">layer20_out(layer20_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer20_out_blk_n">
+                  <obj_property name="ElementShortName">layer20_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer20_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer20_out_dout">
+                  <obj_property name="ElementShortName">layer20_out_dout[95:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer20_out_dout[95:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer20_out_empty_n">
+                  <obj_property name="ElementShortName">layer20_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer20_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer20_out_read">
+                  <obj_property name="ElementShortName">layer20_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer20_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer4_out_group">
+               <obj_property name="label">layer4_out(layer4_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer4_out_blk_n">
+                  <obj_property name="ElementShortName">layer4_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer4_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer4_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer4_out_full_n">
+                  <obj_property name="ElementShortName">layer4_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer4_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_6u_array_ap_ufixed_8_0_4_0_0_6u_relu_config4_U0/layer4_out_write">
+                  <obj_property name="ElementShortName">layer4_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer4_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_group">
+         <obj_property name="label">pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer4_out_group">
+               <obj_property name="label">layer4_out(layer4_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer4_out_blk_n">
+                  <obj_property name="ElementShortName">layer4_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer4_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer4_out_dout">
+                  <obj_property name="ElementShortName">layer4_out_dout[47:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer4_out_dout[47:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer4_out_empty_n">
+                  <obj_property name="ElementShortName">layer4_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer4_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer4_out_read">
+                  <obj_property name="ElementShortName">layer4_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer4_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer5_out_group">
+               <obj_property name="label">layer5_out(layer5_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer5_out_blk_n">
+                  <obj_property name="ElementShortName">layer5_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer5_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer5_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer5_out_full_n">
+                  <obj_property name="ElementShortName">layer5_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer5_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_ap_ufixed_6u_array_ap_ufixed_8_0_4_0_0_6u_config5_U0/layer5_out_write">
+                  <obj_property name="ElementShortName">layer5_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer5_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_group">
+         <obj_property name="label">conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity">
+            <obj_property name="ElementShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer5_out_group">
+               <obj_property name="label">layer5_out(layer5_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer5_out_blk_n">
+                  <obj_property name="ElementShortName">layer5_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer5_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer5_out_dout">
+                  <obj_property name="ElementShortName">layer5_out_dout[47:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer5_out_dout[47:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer5_out_empty_n">
+                  <obj_property name="ElementShortName">layer5_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer5_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer5_out_read">
+                  <obj_property name="ElementShortName">layer5_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer5_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer6_out_group">
+               <obj_property name="label">layer6_out(layer6_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer6_out_blk_n">
+                  <obj_property name="ElementShortName">layer6_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer6_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer6_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer6_out_full_n">
+                  <obj_property name="ElementShortName">layer6_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer6_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/layer6_out_write">
+                  <obj_property name="ElementShortName">layer6_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer6_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_group">
+            <obj_property name="label">grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity">
+               <obj_property name="ElementShortName">call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity</obj_property>
+               <obj_property name="ObjectShortName">call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_activity</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_group">
+               <obj_property name="label">call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="group" fp_name="call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457_Handshake_group">
+                  <obj_property name="label">Block-level handshake</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/ap_start">
+                     <obj_property name="ElementShortName">ap_start</obj_property>
+                     <obj_property name="ObjectShortName">ap_start</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/ap_ready">
+                     <obj_property name="ElementShortName">ap_ready</obj_property>
+                     <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  </wvobject>
+                  <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/conv_2d_cl_array_ap_ufixed_6u_array_ap_fixed_25_12_5_3_0_16u_config6_U0/grp_compute_output_buffer_2d_array_array_ap_fixed_25_12_5_3_0_16u_config6_s_fu_428/call_ln281_shift_line_buffer_array_ap_ufixed_8_0_4_0_0_6u_config6_s_fu_457/ap_done">
+                     <obj_property name="ElementShortName">ap_done</obj_property>
+                     <obj_property name="ObjectShortName">ap_done</obj_property>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_group">
+         <obj_property name="label">normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer6_out_group">
+               <obj_property name="label">layer6_out(layer6_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer6_out_blk_n">
+                  <obj_property name="ElementShortName">layer6_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer6_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer6_out_dout">
+                  <obj_property name="ElementShortName">layer6_out_dout[399:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer6_out_dout[399:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer6_out_empty_n">
+                  <obj_property name="ElementShortName">layer6_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer6_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer6_out_read">
+                  <obj_property name="ElementShortName">layer6_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer6_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer21_out_group">
+               <obj_property name="label">layer21_out(layer21_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer21_out_blk_n">
+                  <obj_property name="ElementShortName">layer21_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer21_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer21_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer21_out_full_n">
+                  <obj_property name="ElementShortName">layer21_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer21_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_config21_U0/layer21_out_write">
+                  <obj_property name="ElementShortName">layer21_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer21_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_group">
+         <obj_property name="label">relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer21_out_group">
+               <obj_property name="label">layer21_out(layer21_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer21_out_blk_n">
+                  <obj_property name="ElementShortName">layer21_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer21_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer21_out_dout">
+                  <obj_property name="ElementShortName">layer21_out_dout[255:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer21_out_dout[255:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer21_out_empty_n">
+                  <obj_property name="ElementShortName">layer21_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer21_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer21_out_read">
+                  <obj_property name="ElementShortName">layer21_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer21_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer8_out_group">
+               <obj_property name="label">layer8_out(layer8_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer8_out_blk_n">
+                  <obj_property name="ElementShortName">layer8_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer8_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer8_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer8_out_full_n">
+                  <obj_property name="ElementShortName">layer8_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer8_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_16u_array_ap_ufixed_8_0_4_0_0_16u_relu_config8_U0/layer8_out_write">
+                  <obj_property name="ElementShortName">layer8_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer8_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_group">
+         <obj_property name="label">pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer8_out_group">
+               <obj_property name="label">layer8_out(layer8_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer8_out_blk_n">
+                  <obj_property name="ElementShortName">layer8_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer8_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer8_out_dout">
+                  <obj_property name="ElementShortName">layer8_out_dout[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer8_out_dout[127:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer8_out_empty_n">
+                  <obj_property name="ElementShortName">layer8_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer8_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer8_out_read">
+                  <obj_property name="ElementShortName">layer8_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer8_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer9_out_group">
+               <obj_property name="label">layer9_out(layer9_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer9_out_blk_n">
+                  <obj_property name="ElementShortName">layer9_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer9_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer9_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer9_out_full_n">
+                  <obj_property name="ElementShortName">layer9_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer9_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/pooling2d_cl_array_array_ap_ufixed_8_0_4_0_0_16u_config9_U0/layer9_out_write">
+                  <obj_property name="ElementShortName">layer9_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer9_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_group">
+         <obj_property name="label">dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity">
+            <obj_property name="ElementShortName">grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer9_out_group">
+               <obj_property name="label">layer9_out(layer9_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/layer9_out_dout">
+                  <obj_property name="ElementShortName">layer9_out_dout[127:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer9_out_dout[127:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/layer9_out_empty_n">
+                  <obj_property name="ElementShortName">layer9_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer9_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/layer9_out_read">
+                  <obj_property name="ElementShortName">layer9_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer9_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="w11_group">
+               <obj_property name="label">w11(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/w11_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/w11_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/w11_ce0">
+                  <obj_property name="ElementShortName">w11_ce0</obj_property>
+                  <obj_property name="ObjectShortName">w11_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer11_out_group">
+               <obj_property name="label">layer11_out(layer11_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/layer11_out_blk_n">
+                  <obj_property name="ElementShortName">layer11_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer11_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/layer11_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/layer11_out_full_n">
+                  <obj_property name="ElementShortName">layer11_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer11_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/layer11_out_write">
+                  <obj_property name="ElementShortName">layer11_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer11_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_group">
+            <obj_property name="label">grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_16u_array_ap_fixed_25_12_5_3_0_120u_config11_U0/grp_dense_array_array_ap_fixed_25_12_5_3_0_120u_config11_Pipeline_DataPrepare_fu_4357/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_group">
+         <obj_property name="label">normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer11_out_group">
+               <obj_property name="label">layer11_out(layer11_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer11_out_blk_n">
+                  <obj_property name="ElementShortName">layer11_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer11_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer11_out_dout">
+                  <obj_property name="ElementShortName">layer11_out_dout[2999:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer11_out_dout[2999:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer11_out_empty_n">
+                  <obj_property name="ElementShortName">layer11_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer11_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer11_out_read">
+                  <obj_property name="ElementShortName">layer11_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer11_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer22_out_group">
+               <obj_property name="label">layer22_out(layer22_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer22_out_blk_n">
+                  <obj_property name="ElementShortName">layer22_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer22_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer22_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer22_out_full_n">
+                  <obj_property name="ElementShortName">layer22_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer22_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_array_ap_fixed_16_6_5_3_0_120u_config22_U0/layer22_out_write">
+                  <obj_property name="ElementShortName">layer22_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer22_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_group">
+         <obj_property name="label">relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer22_out_group">
+               <obj_property name="label">layer22_out(layer22_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer22_out_blk_n">
+                  <obj_property name="ElementShortName">layer22_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer22_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer22_out_dout">
+                  <obj_property name="ElementShortName">layer22_out_dout[1919:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer22_out_dout[1919:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer22_out_empty_n">
+                  <obj_property name="ElementShortName">layer22_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer22_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer22_out_read">
+                  <obj_property name="ElementShortName">layer22_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer22_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer13_out_group">
+               <obj_property name="label">layer13_out(layer13_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer13_out_blk_n">
+                  <obj_property name="ElementShortName">layer13_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer13_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer13_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer13_out_full_n">
+                  <obj_property name="ElementShortName">layer13_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer13_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_array_ap_ufixed_8_0_4_0_0_120u_relu_config13_U0/layer13_out_write">
+                  <obj_property name="ElementShortName">layer13_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer13_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_group">
+         <obj_property name="label">dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer13_out_group">
+               <obj_property name="label">layer13_out(layer13_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer13_out_blk_n">
+                  <obj_property name="ElementShortName">layer13_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer13_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer13_out_dout">
+                  <obj_property name="ElementShortName">layer13_out_dout[959:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer13_out_dout[959:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer13_out_empty_n">
+                  <obj_property name="ElementShortName">layer13_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer13_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer13_out_read">
+                  <obj_property name="ElementShortName">layer13_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer13_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="w14_group">
+               <obj_property name="label">w14(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/w14_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/w14_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/w14_ce0">
+                  <obj_property name="ElementShortName">w14_ce0</obj_property>
+                  <obj_property name="ObjectShortName">w14_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer14_out_group">
+               <obj_property name="label">layer14_out(layer14_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer14_out_blk_n">
+                  <obj_property name="ElementShortName">layer14_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer14_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer14_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer14_out_full_n">
+                  <obj_property name="ElementShortName">layer14_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer14_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_120u_array_ap_fixed_24_11_5_3_0_84u_config14_U0/layer14_out_write">
+                  <obj_property name="ElementShortName">layer14_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer14_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_group">
+         <obj_property name="label">normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer14_out_group">
+               <obj_property name="label">layer14_out(layer14_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer14_out_blk_n">
+                  <obj_property name="ElementShortName">layer14_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer14_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer14_out_dout">
+                  <obj_property name="ElementShortName">layer14_out_dout[2015:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer14_out_dout[2015:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer14_out_empty_n">
+                  <obj_property name="ElementShortName">layer14_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer14_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer14_out_read">
+                  <obj_property name="ElementShortName">layer14_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer14_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer23_out_group">
+               <obj_property name="label">layer23_out(layer23_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer23_out_blk_n">
+                  <obj_property name="ElementShortName">layer23_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer23_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer23_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer23_out_full_n">
+                  <obj_property name="ElementShortName">layer23_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer23_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_84u_array_ap_fixed_16_6_5_3_0_84u_config23_U0/layer23_out_write">
+                  <obj_property name="ElementShortName">layer23_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer23_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_group">
+         <obj_property name="label">relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer23_out_group">
+               <obj_property name="label">layer23_out(layer23_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer23_out_blk_n">
+                  <obj_property name="ElementShortName">layer23_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer23_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer23_out_dout">
+                  <obj_property name="ElementShortName">layer23_out_dout[1343:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer23_out_dout[1343:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer23_out_empty_n">
+                  <obj_property name="ElementShortName">layer23_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer23_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer23_out_read">
+                  <obj_property name="ElementShortName">layer23_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer23_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer16_out_group">
+               <obj_property name="label">layer16_out(layer16_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer16_out_blk_n">
+                  <obj_property name="ElementShortName">layer16_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer16_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer16_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer16_out_full_n">
+                  <obj_property name="ElementShortName">layer16_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer16_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/relu_array_ap_fixed_84u_array_ap_ufixed_8_0_4_0_0_84u_relu_config16_U0/layer16_out_write">
+                  <obj_property name="ElementShortName">layer16_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer16_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_group">
+         <obj_property name="label">dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer16_out_group">
+               <obj_property name="label">layer16_out(layer16_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer16_out_blk_n">
+                  <obj_property name="ElementShortName">layer16_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer16_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer16_out_dout">
+                  <obj_property name="ElementShortName">layer16_out_dout[671:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer16_out_dout[671:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer16_out_empty_n">
+                  <obj_property name="ElementShortName">layer16_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer16_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer16_out_read">
+                  <obj_property name="ElementShortName">layer16_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer16_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer17_out_group">
+               <obj_property name="label">layer17_out(layer17_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer17_out_blk_n">
+                  <obj_property name="ElementShortName">layer17_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer17_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer17_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer17_out_full_n">
+                  <obj_property name="ElementShortName">layer17_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer17_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/dense_array_ap_ufixed_84u_array_ap_fixed_16_6_0_0_0_10u_config17_U0/layer17_out_write">
+                  <obj_property name="ElementShortName">layer17_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer17_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_group">
+         <obj_property name="label">normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer17_out_group">
+               <obj_property name="label">layer17_out(layer17_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer17_out_blk_n">
+                  <obj_property name="ElementShortName">layer17_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer17_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer17_out_dout">
+                  <obj_property name="ElementShortName">layer17_out_dout[159:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer17_out_dout[159:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer17_out_empty_n">
+                  <obj_property name="ElementShortName">layer17_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer17_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer17_out_read">
+                  <obj_property name="ElementShortName">layer17_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer17_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/real_start">
+               <obj_property name="ElementShortName">real_start</obj_property>
+               <obj_property name="ObjectShortName">real_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer24_out_group">
+               <obj_property name="label">layer24_out(layer24_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer24_out_blk_n">
+                  <obj_property name="ElementShortName">layer24_out_blk_n</obj_property>
+                  <obj_property name="ObjectShortName">layer24_out_blk_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer24_out_din">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer24_out_full_n">
+                  <obj_property name="ElementShortName">layer24_out_full_n</obj_property>
+                  <obj_property name="ObjectShortName">layer24_out_full_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/normalize_array_ap_fixed_10u_array_ap_fixed_16_6_5_3_0_10u_config24_U0/layer24_out_write">
+                  <obj_property name="ElementShortName">layer24_out_write</obj_property>
+                  <obj_property name="ObjectShortName">layer24_out_write</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_group">
+         <obj_property name="label">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="protoinst" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity">
+            <obj_property name="ElementShortName">grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_activity</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_Input_group">
+            <obj_property name="label">Input Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="layer24_out_group">
+               <obj_property name="label">layer24_out(layer24_out_U, FIFO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/layer24_out_dout">
+                  <obj_property name="ElementShortName">layer24_out_dout[159:0]</obj_property>
+                  <obj_property name="ObjectShortName">layer24_out_dout[159:0]</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/layer24_out_empty_n">
+                  <obj_property name="ElementShortName">layer24_out_empty_n</obj_property>
+                  <obj_property name="ObjectShortName">layer24_out_empty_n</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/layer24_out_read">
+                  <obj_property name="ElementShortName">layer24_out_read</obj_property>
+                  <obj_property name="ObjectShortName">layer24_out_read</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="exp_table_group">
+               <obj_property name="label">exp_table(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/exp_table_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/exp_table_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/exp_table_ce0">
+                  <obj_property name="ElementShortName">exp_table_ce0</obj_property>
+                  <obj_property name="ObjectShortName">exp_table_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="invert_table_group">
+               <obj_property name="label">invert_table(PIPO)</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/invert_table_address0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/invert_table_q0">
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/invert_table_ce0">
+                  <obj_property name="ElementShortName">invert_table_ce0</obj_property>
+                  <obj_property name="ObjectShortName">invert_table_ce0</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+                  <obj_property name="label">ap_ready(t_read)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_Handshake_group">
+            <obj_property name="label">Block-level handshake</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/ap_start">
+               <obj_property name="ElementShortName">ap_start</obj_property>
+               <obj_property name="ObjectShortName">ap_start</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/ap_ready">
+               <obj_property name="ElementShortName">ap_ready</obj_property>
+               <obj_property name="ObjectShortName">ap_ready</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/ap_done">
+               <obj_property name="ElementShortName">ap_done</obj_property>
+               <obj_property name="ObjectShortName">ap_done</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/ap_continue">
+               <obj_property name="ElementShortName">ap_continue</obj_property>
+               <obj_property name="ObjectShortName">ap_continue</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0_Output_group">
+            <obj_property name="label">Output Channels</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_group">
+            <obj_property name="label">grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="group" fp_name="grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26_Handshake_group">
+               <obj_property name="label">Block-level handshake</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/ap_start">
+                  <obj_property name="ElementShortName">ap_start</obj_property>
+                  <obj_property name="ObjectShortName">ap_start</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/ap_ready">
+                  <obj_property name="ElementShortName">ap_ready</obj_property>
+                  <obj_property name="ObjectShortName">ap_ready</obj_property>
+               </wvobject>
+               <wvobject type="logic" fp_name="/apatb_myproject_top/AESL_inst_myproject/softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config19_s_fu_26/ap_done">
+                  <obj_property name="ElementShortName">ap_done</obj_property>
+                  <obj_property name="ObjectShortName">ap_done</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

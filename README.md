@@ -54,7 +54,7 @@ The hls4ml compiler infrastructure consists of four primary layers:
 
 #### Implementation of Layers
 
-Some layers, e.g., convolutional layers lowered to CMVM through the im2col [21] transformation, may perform identical CMVM operations multiple times on different inputs in one forward pass. In this case, the parallelism between CMVM operations is controlled by the Parallelization Factor (PF).
+Some layers, e.g., convolutional layers lowered to CMVM through the im2col transformation, may perform identical CMVM operations multiple times on different inputs in one forward pass. In this case, the parallelism between CMVM operations is controlled by the Parallelization Factor (PF).
 
 <p align="center">
   <img width="700" alt="FPGA acceleration results" src="images/Picture3.png" />
@@ -288,7 +288,7 @@ Finally, the `.xsa` hardware-platform file was generated for use in Vitis. The f
 
 ### Host Code in Vitis
 
-Using the generated `.xsa` file from Vivado for the whole system, we developed the host code [20], [21], which runs on the Zynq processor (ARM Cortex-A53) to control the full system:
+Using the generated `.xsa` file from Vivado for the whole system, we developed the host code which runs on the Zynq processor (ARM Cortex-A53) to control the full system:
 
 1. It asserts the `start_trigger` signal through GPIO to wake up the IP.
 2. It reads the images from the `.hex` file image by image, packs two 16-bit pixels into a 32-bit word, and writes 392 words to the TX FIFO data port (FIFO TDFD).
@@ -348,3 +348,35 @@ For the Vivado system integration, the TX AXI4-Stream FIFO was configured with a
 
 ## FUTURE WORK
 For the Vivado system integration in the hls4ml project, we can replace the FIFOs with Direct Memory Access (DMA), which allows the model to directly access the DDR memory via AXI-Stream without needing the Zynq processor. We can also replace the AXI GPIOs with AXI4-Lite by wrapping the IP to have its own AXI4-Lite interface for direct control by the PS. Furthermore, we can configure the Zynq processor to communicate with the FIFOs using a full AXI4 interface rather than AXI4-Lite. This would enable high-speed data bursts rather than writing data word by word.
+
+## References
+
+1. J.-F. Schulte et al., **"hls4ml: A flexible, open source platform for deep learning acceleration on reconfigurable hardware,"** *ACM Transactions on Reconfigurable Technology and Systems*, vol. 19, no. 2, pp. 1–35, 2026.
+
+2. T. Aarrestad et al., **"Fast convolutional neural networks on FPGAs with hls4ml,"** *Machine Learning: Science and Technology*, vol. 2, no. 4, p. 045015, 2021.
+
+3. J. Duarte et al., **"Fast inference of deep neural networks in FPGAs for particle physics,"** *Journal of Instrumentation*, vol. 13, no. 07, p. P07027, 2018.
+
+4. E. Floter et al., **"Real-time semantic segmentation on FPGAs for autonomous vehicles with hls4ml,"** *arXiv preprint arXiv:2104.06870*, 2021.
+
+5. Fast Machine Learning Lab, **"hls4ml documentation."** [fastmachinelearning.org/hls4ml](https://fastmachinelearning.org/hls4ml/)
+
+6. Google, **"QKeras: Deep learning quantization library for Keras."** [GitHub](https://github.com/google/qkeras)
+
+7. TensorFlow, **"TensorFlow Model Optimization Toolkit: Pruning with Keras."** [TensorFlow Docs](https://www.tensorflow.org/model_optimization/guide/pruning/pruning_with_keras)
+
+8. A. Fast et al., **"Neural Network Acceleration on MPSoC board: Integrating SLAC's SNL, Rogue Software and Auto-SNL,"** SLAC National Accelerator Laboratory Technical Report, 2023.
+
+9. Fast Machine Learning Lab, **"hls4ml tutorial: QKeras CNN on SVHN."** [GitHub notebook](https://github.com/fastmachinelearning/hls4ml-tutorial/blob/main/4_advanced_models/4a_qkeras_cnn_svhn.ipynb)
+
+10. Fast Machine Learning Lab, **"hls4ml tutorial: FPGA Bitstream Generation with PYNQ."** [GitHub notebook](https://github.com/fastmachinelearning/hls4ml-tutorial/blob/main/archived/part7a_bitstream.ipynb)
+
+11. M. Tareq, **"Custom AXI IPs for DSP applications."** [GitHub](https://github.com/mohamedtareq24/DSP_Custom_AXI_IPs)
+
+12. AMD Xilinx, **"AXI4-Stream FIFO v4.3 LogiCORE IP Product Guide (PG080),"** 2023. [Docs](https://docs.amd.com/r/en-US/pg080-axi-fifo-mm-s/Introduction)
+
+13. AMD Xilinx, **"Zynq UltraScale+ Device Technical Reference Manual (UG1085),"** 2023. [Docs](https://docs.amd.com/v/u/en-US/ug1085-zynq-ultrascale-trm)
+
+14. AMD Xilinx, **"Vitis Unified Software Development Platform Documentation (UG1393),"** 2023. [Docs](https://docs.amd.com/v/u/en-US/ug1393-vitis-application-acceleration)
+
+15. AMD Xilinx, **"Vitis Tutorials Repository (v2023.1)."** [GitHub](https://github.com/Xilinx/Vitis-Tutorials/tree/2023.1)

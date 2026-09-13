@@ -329,3 +329,22 @@ Using an Integrated Logic Analyzer (ILA), which was synthesized into our system 
 <p align="center">
   <img width="500" alt="FPGA acceleration results" src="images/deployment on ZCU102 board.jpg" />
 </p>
+
+## CHALLENGES & LIMITATIONS
+We used the Resource strategy because dense layers contain a large number of weights, which results in significant hardware resource utilization. Furthermore, if a Latency strategy were used, the C++ code would compile into a large number of instructions due to loop unrolling paradigms, leading to out-of-memory (OOM) errors on host PCs with limited memory.
+
+Additionally, hls4ml supports the VivadoAccelerator backend, which allows using PYNQ software to easily deploy the design on the FPGA. It wraps the HLS IP with an AXI interface and generates a ready-to-use block design with the Zynq processor and DMA interface in Vivado. However, its limitation is that it relies on Vivado HLS, whereas newer versions of Vitis (such as 2023.1, bundled with Vivado 2023.1) utilize Vitis HLS instead of Vivado HLS. Therefore, using this backend requires an older version of Vivado (such as 2019 or 2020) or taking the manual approach, as done in this work, to generate the complete system. The hls4ml community is currently working on a VitisAccelerator backend similar to VivadoAccelerator that supports Vitis HLS, but it was not officially released at the time of this publication.
+For the Vivado system integration in the hls4ml project, We
+can replace the FIFOs with Direct Memory Access (DMA),
+which allows the model to directly access the DDR memory
+via AXI-Stream without needing the Zynq processor. We can
+also replace the AXI GPIOs with AXI4-Lite by wrapping the
+IP to have its own AXI4-Lite interface for direct control by
+the PS. Furthermore, we can configure the Zynq processor to
+communicate with the FIFOs using a full AXI4 interface rather
+than AXI4-Lite. This would enable high-speed data bursts
+rather than writing data word by word
+For the Vivado system integration, the TX AXI4-Stream FIFO was configured with a depth of 4,096 words, but the host code sends a single image at a time (392 words), triggers the transfer, and waits for an acknowledgment that the model read the image before proceeding to the next image. This introduces software overhead on the PS for every image. Consequently, there are two potential approaches: if targeting area optimization, the FIFO depth can be reduced to 512 words to store one image at a time (which is also a valid approach when evaluating across the full dataset); conversely, if targeting throughput optimization, a FIFO depth of 39,200 words can be used for 100 images to accelerate data transfer.
+
+## FUTURE WORK
+For the Vivado system integration in the hls4ml project, we can replace the FIFOs with Direct Memory Access (DMA), which allows the model to directly access the DDR memory via AXI-Stream without needing the Zynq processor. We can also replace the AXI GPIOs with AXI4-Lite by wrapping the IP to have its own AXI4-Lite interface for direct control by the PS. Furthermore, we can configure the Zynq processor to communicate with the FIFOs using a full AXI4 interface rather than AXI4-Lite. This would enable high-speed data bursts rather than writing data word by word.

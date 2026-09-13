@@ -301,6 +301,10 @@ During deployment on the ZCU102 board, after building both the Programmable Logi
 
 Using an Integrated Logic Analyzer (ILA), which was synthesized into our system to monitor internal data flow, we found a bug during the initial hardware run where the weight files were not synthesized into BRAM. This caused the model output to always be zero, even though the input image pixels were being read correctly. After resolving this issue and generating an updated bitstream, the system operated correctly.
 
+<p align="center">
+  <img width="500" alt="FPGA acceleration results" src="images/photo_2026-08-25_11-03-22.jpg" />
+</p>
+
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; text-align: center;">
   <thead>
     <tr style="background-color: #2c3e50; color: #ffffff;">

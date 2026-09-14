@@ -86,7 +86,21 @@ Validate the complete hls4ml deployment flow before moving to MobileNetV1. Use a
 </p>
 
 ### LeNet-5 Architecture
-
+A LeNet-5 convolutional
+neural network was implemented using TensorFlow and Keras
+and trained on the MNIST handwritten-digit dataset. MNIST
+contains 60,000 training images, 10,000 test images, and 10
+classes corresponding to the digits 0–9.
+The network processes 28 × 28 grayscale images and consists
+of two convolutional layers, two average-pooling layers, and
+three fully connected layers. The initial convolutional layer
+applies six 5 × 5 filters, followed by ReLU activation and
+average pooling. The next convolutional layer uses sixteen
+5×5 filters, followed by ReLU activation and average pooling.
+The resulting 4 × 4 × 16 feature map is flattened and passed
+through fully connected layers containing 120 and 84 neurons,
+respectively. The final layer consists of 10 neurons with a soft-
+max activation to classify the 10 MNIST digit categories
 <table>
   <tr>
     <td align="center"><img width="400" alt="Time profiling breakdown" src="images/Picture6.png" /></td>
